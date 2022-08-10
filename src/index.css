@@ -13,6 +13,7 @@
     }
 }
 
+
 /* LOGO ANIMATION */
   .grow {
     -webkit-transition: all 0.3s ease; 
@@ -25,10 +26,9 @@
     transform: scale(1.05);
 }
 
-.rotate:hover {
-  animation: rotation 1s infinite linear;
+.rotate:hover { animation: rotation 0.4s infinite linear;
   animation-play-state: running;
-  }
+  animation-duration: 3s;}
 
   @keyframes rotation {
     from {
@@ -50,4 +50,14 @@
     transition: .8s ease;
     }
 
+    /* STYLYING FOR BACKGROUND IMAGE in WORK section */
+
+    .content-div{
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+
+    
+    }
     

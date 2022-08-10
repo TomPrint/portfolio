@@ -16,15 +16,16 @@ import HTMX from '../assets/HTMX.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#202020] text-gray-300'>
+    <div name='skills' className='w-full h-screen bg-[#202020] text-gray-300 pt-11'>
       {/* CONTAINER */}
       <div className='max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='pb-10'>
     <div>
       <p className='text-4xl font-bold inline border-b-4 border-amber-300'>Skills</p>
-      <p className='py-4 flex group'>These are the technologies I have worked with
-      <span>
-      <DiAptana className='ml-1 fill-amber-300 rotate'/>
-      </span>
+      <p className='py-4 flex group'>
+        <span>
+      <DiAptana className='mr-1 fill-amber-300 rotate'/>
+      </span>These are the technologies I have worked with:
       </p>
     </div>
 
@@ -79,7 +80,7 @@ const Skills = () => {
       </div>
 
     
-
+</div>
     </div>
       </div>
 
