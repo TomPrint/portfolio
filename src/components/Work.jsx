@@ -8,7 +8,7 @@ const Work = () => {
 
 
 
-    <div name='work' className='w-full md:h-screen  bg-[#202020] text-gray-300'>
+    <div name='work' className='w-full h-screen bg-[#202020] text-gray-300 pt-[150px]'>
         <div className='max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-10'>
                 <p className='text-4xl font-bold inline border-b-4 border-amber-300 text-gray-300'>
@@ -17,9 +17,9 @@ const Work = () => {
                 <p className='py-6'>View my recent projects</p>
 
                 {/* Container */}
-                <div className='grid sm:grid-cols-2 md:grid cols-3 gap-4'>
+                <div className='grid sm:grid-cols-2 md:grid cols-3 gap-2'>
                     {/* Grid Item 1 */}
-                    <div style={{backgroundImage: `url(${Influencio})`}}
+                    <div className="auto-cols-min" style={{backgroundImage: `url(${Influencio})`}}
                      className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         
                         {/* Hover Effects */}

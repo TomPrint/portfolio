@@ -16,10 +16,10 @@ import HTMX from '../assets/HTMX.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#202020] text-gray-300 pt-11'>
+    <div name='skills' className='w-full h-screen bg-[#202020] text-gray-300 pt-[120px]'>
       {/* CONTAINER */}
       <div className='max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-      <div className='pb-10'>
+      <div className='pb-3'>
     <div>
       <p className='text-4xl font-bold inline border-b-4 border-amber-300'>Skills</p>
       <p className='py-4 flex group'>
@@ -29,7 +29,7 @@ const Skills = () => {
       </p>
     </div>
 
-    <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+    <div className='w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8'>
       <div className='shadow-md shadow-[#ccd6f6] hover:scale-110 duration-500'>
         <img className='w-10 mx-auto mt-2' src={Alpine} alt='Apline.js icon' />
         <p className='my-2'>Alpine.js</p>

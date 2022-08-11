@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#202020] text-gray-300 pt-11'>
+    <div name='about' className='w-full h-screen bg-[#202020] text-gray-300 pt-[70px]'>
       <div className='max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div className='pb-10'>
           <div className="text-4xl font-bold inline border-b-4 border-amber-300">
@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div>
                 <p>I am passionate about building beautiful and functional websites.</p>
-                <p className="font-bold">I specialize in creating responsive and accessible websites,
+                <p className="italic">I specialize in creating responsive and accessible websites,
                     for both idividuals and businesses.</p>
                     </div>
                     </div>

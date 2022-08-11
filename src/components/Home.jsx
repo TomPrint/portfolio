@@ -8,7 +8,7 @@ const Home = () => {
     <div name='home' className = "w-full h-screen bg-[#202020]">
         
         {/* Container */}
-        <div className='max-w-[900px] mx-auto flex flex-col justify-center h-full px-8 text-gray-300'>
+        <div className='max-w-[900px]  mx-auto flex flex-col justify-center h-full px-8 text-gray-300'>
         <div className='pb-10'>
             <p className='text-amber-300'>Hi, my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Tomasz Klewicki</h1>

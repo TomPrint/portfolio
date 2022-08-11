@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[70px] flex justify-between items-center pt-2 px-4 bg-[#202020] text-gray-300'>
-    <div>
+    <div className='hidden md:flex md:visible'>
     <Link  to='home' smooth={true}  duration={400} >
-    <img className= 'rounded-full border-2 border-amber-300 grow glow mt-[10px]' src={Logo} alt='logo' style={{width: '80px'}}/>
+    <img className='rounded-full border-2 border-amber-300 grow glow mt-[10px] ' src={Logo} alt='logo' style={{width: '80px'}}/>
     </Link>
     </div>
         {/* MENU */}
