@@ -1,11 +1,14 @@
 import React from 'react'
 import{FiArrowRightCircle} from 'react-icons/fi'
-import {Link} from 'react-scroll' 
+import {Link} from 'react-scroll'
+
 
 
 const Home = () => {
   return (
+
     <div name='home' className = "w-full h-screen bg-[#202020]">
+      
         
         {/* Container */}
         <div className='max-w-[900px]  mx-auto flex flex-col justify-center h-full px-8 text-gray-300'>
