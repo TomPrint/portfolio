@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 @layer base {
     body {
-        @apply font-[Oxygen];
+      @apply font-[Comfortaa];
     }
     li {
         @apply px-4;
@@ -57,7 +58,13 @@
       background-size: cover;
       background-position: center;
       height: 250px;
-
     
     }
     
+    .content-div:hover {
+      background-image: linear-gradient(
+          to right,
+          rgba(201, 140, 50, 0.829),
+          hsla(0, 2%, 23%, 0.8)
+      ) !important;
+  }

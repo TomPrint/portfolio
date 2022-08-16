@@ -10,15 +10,15 @@ const About = () => {
               About
           </div>
           <div className="py-4 flex group">
-          <div className="border-2 px-6 py-3 my-2 flex items-center grow">
+          <div className="border-2 px-6 py-3 my-2 flex items-center">
             <div>
               <p className="sm:text-2xl py-3 px-6 font-bold">
-                Hi. I am Tomasz, nice to meet you. Please take a look around.
+                Hi! I am Tomasz, nice to meet you. Please take a look around.
               </p>
             </div>
             <div>
                 <p>I am passionate about building beautiful and functional websites.</p>
-                <p className="italic">I specialize in creating responsive and accessible websites,
+                <p className="text-amber-300">I specialize in creating responsive and accessible web applications,
                     for both idividuals and businesses.</p>
                     </div>
                     </div>

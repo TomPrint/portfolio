@@ -12,7 +12,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[70px] flex justify-between items-center pt-2 px-4 bg-[#202020] text-gray-300'>
+    <div className='fixed w-full h-[70px] flex justify-between items-center pt-2 px-4 bg-[#202020] text-amber-300'>
     <div className='hidden md:flex md:visible'>
     <Link  to='home' smooth={true}  duration={400} >
     <img className='rounded-full border-2 border-amber-300 grow glow mt-[10px] ' src={Logo} alt='logo' style={{width: '80px'}}/>
@@ -107,13 +107,13 @@ const Navbar = () => {
                 <HiOutlineMail size={30} />
               </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#14365d] rounded-r-lg'>
+            {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#14365d] rounded-r-lg'>
               <a className='flex justify-between items-center w-full text-gray-300'
               href='/'>
                 Resume
                 <BsFillPersonLinesFill size={30} />
               </a>
-            </li>
+            </li> */}
           </ul>
 
         </div>

@@ -3,9 +3,9 @@ import {BiMailSend} from 'react-icons/bi'
 
 const Contact = () => {
   return (
-    <div name='contact' className='mx-auto p-4 w-full h-full bg-[#202020] text-gray-300 flex justify-center items-center pt-[80px]'>
+    <div name='contact' className='w-full md:h-screen bg-[#202020] text-gray-300 flex justify-center items-center p-4 pt-[70px]'>
         {/* form with Getform.io */}
-        <form method='POST'action="https://getform.io/f/98604098-8074-4869-9eae-7b3fc6c51f64" className='flex flex-col max-w-[600px] w-full'>
+        <form method='POST'action="https://getform.io/f/98604098-8074-4869-9eae-7b3fc6c51f64" className='flex flex-col max-w-[400px] w-full'>
             <div className='pb-10'>
                 <p className='text-4xl font-bold inline border-b-4 border-amber-300 text-gray-300'>Contact</p>
                 <p className='text-gray-300 flex pt-3'>
