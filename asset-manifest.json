@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.53be9f04.css",
-    "main.js": "/portfolio/static/js/main.6b416148.js",
+    "main.css": "/portfolio/static/css/main.0735439d.css",
+    "main.js": "/portfolio/static/js/main.6b336b09.js",
     "static/media/Pasieka.jpg": "/portfolio/static/media/Pasieka.fb02bf8c90b6ac29022e.jpg",
     "static/media/CutIt.jpg": "/portfolio/static/media/CutIt.99b0d6f6a83a80396382.jpg",
     "static/media/Influencio.jpg": "/portfolio/static/media/Influencio.8d089efefaa9a2f8ee7c.jpg",
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.52d7bb207f9868b90e39.png",
+    "static/media/ManualsQR.jpg": "/portfolio/static/media/ManualsQR.6876238ebbf2fdd821ad.jpg",
     "static/media/TomPrint.png": "/portfolio/static/media/TomPrint.f21fc00bd3bd25714d0d.png",
+    "static/media/Angular.png": "/portfolio/static/media/Angular.b6d2a9dec3e43e0ffb95.png",
     "static/media/bootstrap-logo.png": "/portfolio/static/media/bootstrap-logo.02e16df6861464872846.png",
     "static/media/django-logo.png": "/portfolio/static/media/django-logo.a5aaa412df3c52f5f6bf.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -16,11 +18,11 @@
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.53be9f04.css.map": "/portfolio/static/css/main.53be9f04.css.map",
-    "main.6b416148.js.map": "/portfolio/static/js/main.6b416148.js.map"
+    "main.0735439d.css.map": "/portfolio/static/css/main.0735439d.css.map",
+    "main.6b336b09.js.map": "/portfolio/static/js/main.6b336b09.js.map"
   },
   "entrypoints": [
-    "static/css/main.53be9f04.css",
-    "static/js/main.6b416148.js"
+    "static/css/main.0735439d.css",
+    "static/js/main.6b336b09.js"
   ]
 }
