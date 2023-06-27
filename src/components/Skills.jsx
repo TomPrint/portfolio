@@ -1,7 +1,7 @@
 import React from 'react'
 import {DiAptana} from "react-icons/di"
 
-import Alpine from '../assets/Alpine.png'
+import Angular from '../assets/Angular.png'
 import Bootstrap from '../assets/bootstrap-logo.png'
 import CSS from '../assets/css.png'
 import Django from '../assets/django-logo.png'
@@ -16,7 +16,7 @@ import HTMX from '../assets/HTMX.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#202020] text-gray-300 pt-[60px]'>
+    <div name='skills' className='w-full h-screen bg-[#202020] text-gray-300 pt-[80px]'>
       {/* CONTAINER */}
       <div className='max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full'>
       <div className='pb-3'>
@@ -31,8 +31,8 @@ const Skills = () => {
 
     <div className='w-full grid grid-cols-4 sm:grid-cols-4 gap-3 text-center py-8'>
       <div className='shadow-md shadow-[#ccd6f6] hover:scale-110 duration-500'>
-        <img className='w-10 mx-auto mt-2' src={Alpine} alt='Apline.js icon' />
-        <p className='my-2 text-xs md:text-base'>Alpine.js</p>
+        <img className='w-10 mx-auto mt-2' src={Angular} alt='Apline.js icon' />
+        <p className='my-2 text-xs md:text-base'>Angular</p>
       </div>
       <div className='shadow-md shadow-[#ccd6f6] hover:scale-110 duration-500'>
         <img className='w-10 mx-auto mt-2' src={Bootstrap} alt='Bootstrap icon' />
